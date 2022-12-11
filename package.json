@@ -16,10 +16,14 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.11.6",
+    "@types/prompt-sync": "^4.2.0",
     "aocrunner": "^1.9.6",
     "prettier": "^2.8.0"
   },
   "engines": {
     "node": ">=16.13.0"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
   }
 }
