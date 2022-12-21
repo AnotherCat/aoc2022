@@ -87,7 +87,7 @@ const part1 = (rawInput: string) => {
       }
     }
   }
-  console.log(numbers);
+  //console.log(numbers);
   return numbers.reduce((pre, cur) => {
     return pre + cur;
   }, 0);
@@ -120,7 +120,7 @@ const part2 = (rawInput: string) => {
     }
     const spriteStartPos = x;
     const spriteEndPos = x + 2;
-    console.log(x, cycleCount);
+    //console.log(x, cycleCount);
     if (cycleCount % 40 >= spriteStartPos && cycleCount % 40 <= spriteEndPos) {
       drawing.push("#");
     } else {
@@ -136,7 +136,7 @@ const part2 = (rawInput: string) => {
       currentCommand = undefined;
     }
   }
-  console.log(JSON.stringify(drawing));
+  //console.log(JSON.stringify(drawing));
 
   const parsedDrawing = [
     drawing.slice(0, 40).join(""),
