@@ -24,6 +24,7 @@
     "node": ">=16.13.0"
   },
   "dependencies": {
+    "exceljs": "^4.3.0",
     "prompt-sync": "^4.2.0"
   }
 }
